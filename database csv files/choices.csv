@@ -1,0 +1,510 @@
+id,question_id,choice_text,iscorrect
+1,1,Yield Sign,f
+2,1,Stop Sign,t
+3,1,School Zone,f
+4,1,Railroad Crossing,f
+5,2,10 feet,f
+6,2,15 feet,f
+7,2,20 feet,f
+8,2,25 feet,t
+9,3,Judgement,t
+10,3,Vision,f
+11,3,Speech,f
+12,3,Reaction Time,f
+13,4,.08,f
+14,4,.02,t
+15,4,.05,f
+16,4,.00,f
+17,5,Proceed through the light with caution and maintain your speed,f
+18,5,Proceed through the light with caution regardless of oncoming or turning traffic,f
+19,5,Proceed through the light with caution and reduce your speed,t
+20,5,Proceed through the light after coming to full stop first,f
+21,6,5 seconds,f
+22,6,4 seconds,f
+23,6,3 seconds,t
+24,6,2 seconds,f
+25,7,Towards the curb,f
+26,7,Away from the curb,t
+27,7,Straight,f
+28,7,It Does Not Matter as long as the brake is engaged.,f
+29,8,Downshift to Neutral,t
+30,8,Pump the Brakes,f
+31,8,Pull the Brake with your hand,f
+32,8,Engage the Emergency Brake,f
+33,9,6 inches,f
+34,9,12 inches,t
+35,9,18 inches,f
+36,9,24 inches,f
+37,10,.08,t
+38,10,.02,f
+39,10,.05,f
+40,10,.06,f
+41,11,The Brakes,t
+42,11,The Tires,f
+43,11,The Accelerator,f
+44,11,The Engine,f
+45,12,12 seconds,t
+46,12,6 seconds,f
+47,12,10 seconds,f
+48,12,8 seconds,f
+49,13,35 MPH,t
+50,13,25 MPH,f
+51,13,15 MPH,f
+52,13,40 MPH,f
+53,14,Pump the Brakes,f
+54,14,Ease off the Gas Pedal,t
+55,14,Give it more gas,f
+56,14,Shift to neutral,f
+57,15,Increase your following distance,t
+58,15,Decrease your following distance,f
+59,15,Maintain your following distance,f
+60,15,"Maintain your speed, no matter what the car ahead of you does. ",f
+61,16,3 seconds,t
+62,16,4 seconds,f
+63,16,5 seconds,f
+64,16,6 seconds,f
+65,17,A Regulatory Sign,t
+66,17,A Warning Sign,f
+67,17,A Guide Sign,f
+68,17,A Construction Sign,f
+69,18,Put your high beams on and leave them on,f
+70,18,Don't do anything,f
+71,18,Turn your lights off and on,f
+72,18,Flash your high beams on and off quickly,t
+73,19,Look to the right side of the road,t
+74,19,Look to the left side of the road,f
+75,19,Look straight ahead,f
+76,19,Stare into the headlights until your eyes adjust,f
+77,20,Yield the Right of Way,t
+78,20,Railroad Crossing,f
+79,20,No Passing,f
+80,20,Pedestrian Crossing,f
+81,21,You may pass if it is safe to do so,t
+82,21,You may not pass,f
+83,21,You may pass and oncoming cars must yield the right of way,f
+84,21,Both lanes of traffic are traveling in the same direction,f
+85,22,On a one way street,f
+86,22,When the children have all gotten on or off the bus,f
+87,22,When the bus is on the opposite side of a divided highway.,t
+88,22,When the lights are flashing and the stop sign is open from the side of the bus,f
+89,23,"Regulatory, Construction, Warning, Information",f
+90,23,"Regulatory, Construction, Warning, Guide",t
+91,23,"Regulatory, Work Zone, Warning, Guide",f
+92,23,"Regulatory, Construction, Yellow, Guide",f
+93,24,The driver that reached the intersection first,t
+94,24,The driver to the left of you,f
+95,24,The driver in front of you,f
+96,24,You because you know the rule,f
+97,25,About 1 Mile,f
+98,25,About 1/4 Mile,t
+99,25,About 1/2 Mile,f
+100,25,About 12 Seconds,f
+101,26,The signal may have been left on from an earlier turn,t
+102,26,The vehicle may be turning another way,f
+103,26,The lights may not be working properly,f
+104,26,The driver may be trying to trick you,f
+105,27,Turn your lights on,f
+106,27,Turn your vehicle's radio or stero off,f
+107,27,Slow down,t
+108,27,Use your Hazard Lights,f
+109,28,Slow down to shorten the time required to pass,t
+110,28,Pull over,f
+111,28,Speed Up,f
+112,28,"Do Not Let Them Pass, No Matter What",f
+113,29,3 seconds or more,t
+114,29,2 seconds,f
+115,29,2 car lengths,f
+116,29,1 car length,f
+117,30,1,t
+118,30,2,f
+119,30,3,f
+120,30,4,f
+121,31,Dirty headlights greatly reduce your ability to see,t
+122,31,You can increase the life of your headlights,f
+123,31,They can help to blind other drivers,f
+124,31,Keeps the insects off your headlights,f
+125,32,Stop,t
+126,32,Yield,f
+127,32,Use Caution,f
+128,32,Slow Down,f
+129,33,At All Times,t
+130,33,Only in Crosswalks,f
+131,33,During Inclement Weather,f
+132,33,Only in School Zones,f
+133,34,Represent the maximum speed for ideal driving conditions,t
+134,34,Represent the suggested speed for the road highway,f
+135,34,Represent the maximum speed for all driving conditions,f
+136,34,May be disregarded if the traffic flow is faster,f
+137,35,Use both the lap and shoulder belt,t
+138,35,Use only the shoulder belt,f
+139,35,Use only the lap belt,f
+140,35,Use whichever you are most comfortable with,f
+141,36,Ease your foot off of the gas pedal,f
+142,36,Try to keep the steering wheel straight,f
+143,36,Do not try to stop or turn until the tires grip the road,f
+144,36,All of the above,t
+145,37,Directly behind the body,f
+146,37,The right side of the cab from rear tractor wheels outward and around the front of the truck,f
+147,37,The immediate left of the cab,f
+148,37,All of the Above,t
+149,38,Blind,t
+150,38,Deaf,f
+151,38,Elderly,f
+152,38,Handicapped,f
+153,39,Hover your foot over the brake,f
+154,39,Increase your following distance,t
+155,39,Slow Down,f
+156,39,Be prepared to use your horn,f
+157,40,...through a tunnel,f
+158,40,...across a bridge,f
+159,40,...near a police station,f
+160,40,...when blind pedestrians are near,t
+161,41,Slow down or stop completely and report the animal to the authorities,f
+162,41,Maintain your speed,f
+163,41,"Slow down, but do not stop",f
+164,41,"Slow down or stop completely and let the animal pass by, if it is safe to do so",t
+165,42,Apply the brakes,f
+166,42,Increase your braking distance,t
+167,42,Increase Your Speed,f
+168,42,Pull over to the side of the road and stop,f
+169,43,Slow down and keep moving,f
+170,43,Speed up and get out of the way,f
+171,43,Maintain your speed,f
+172,43,Pull over to the right and stop,t
+173,44,Drinking alcohol,t
+174,44,Exercising,f
+175,44,Sleeping,f
+176,44,Working hard,f
+177,45,Put some relaxing music on the stereo as you drive,f
+178,45,Cool off before you drive,t
+179,45,Breath deeply as you drive to calm yourself down,f
+180,45,Concentrate and be cautious as you drive,f
+181,46,Speed up to stay ahead of the vehicle,f
+182,46,Maintain your speed and position,f
+183,46,Pull off the road,f
+184,46,Slow down and let them safely return to the drive lane,t
+185,47,Go through the intersection before it turns red,f
+186,47,Stop if it is safe to do so,t
+187,47,Be prepared to stop,f
+188,47,Slow down and proceed with caution,f
+189,48,5 feet,f
+190,48,10 feet,t
+191,48,15 feet,f
+192,48,20 feet,f
+193,49,Even when the red lights are not flashing,f
+194,49,In school zones,f
+195,49,When its red lights are flashing,t
+196,49,On school days,f
+197,50,Drive in any lane,f
+198,50,Drive in the left lane,f
+199,50,Stay in the right lane except to pass,t
+200,50,None of the above,f
+201,51,"Move to the right lane and let the vehicle pass, if possible",t
+202,51,Speed up,f
+203,51,Maintain your speed,f
+204,51,Brake quickly,f
+205,52,Look left and right before proceeding,t
+206,52,Tap horn lightly to let others know you are moving forward,f
+207,52,Accelerate immediately so you do not hold up traffic behind you,f
+208,52,	None of the above,f
+209,53,Three months,f
+210,53,Six months,f
+211,53,Four months,f
+212,53,Eighteen months,t
+213,54,You may pass with caution,f
+214,54,You may pass on the right,f
+215,54,Reduce speed,f
+216,54,You may not pass,t
+217,55,At the corner,f
+218,55,At the crosswalk,f
+219,55,At the stop sign,f
+220,55,At the stop line,t
+221,56,Stop and wait for it to load or unload children,f
+222,56,"Stop, check for children,then proceed",f
+223,56,Stop and wait until the flashing red lights go off,f
+224,56,Watch for children and be ready to stop,t
+225,57,Turning on your headlights,t
+226,57,Turning on your parking lights,f
+227,57,Flash your high beams,f
+228,57,	Turning on your emergency flashers,f
+229,58,Signal and pull into the slow lane,f
+230,58,Put on your hazard lights and pull off the road.,t
+231,58,"Stop in your lane, get out, and direct traffic around your car.",f
+232,58,Stop in your lane and put on your hazard lights,f
+233,59,Your own spray will obscure your vision,f
+234,59,Your vehicle may pull to the right,f
+235,59,Other vehicles may not be able to see you,f
+236,59,Your vehicle may hydroplane,t
+237,60,They are not necessary if your vehicle has an air bag,t
+238,60,They keep you from being thrown from the vehicle in the event of an accident,f
+239,60,They prevent a human collision by holding you in place,f
+240,60,"They prevent head injuries, helping you remain conscious and in control of the vehicle",f
+241,61,Make sure you have room to complete the pass without excessive speed,t
+242,61,Pass on a down grade,f
+243,61,Go as fast as possible to race with the truck,f
+244,61,Honk your horn at the driver,f
+245,62,If it is behind you,f
+246,62,If it is coming towards you,f
+247,62,If it is approaching from a side street,f
+248,62,All of the above,t
+249,63,"cones, barrels, signs, large vehicles",t
+250,63,"stopped cars, pedestrians, horses, shopping carts",f
+251,63,"signs, parked cars, pedestrians, men wearing pink hats",f
+252,63,"cones, flaggers, pedestrians, animals",f
+253,64,People crossing the street,f
+254,64,Reductions in the speed limit through the work zone,t
+255,64,Scenic roads ahead,f
+256,64,Weather conditions,f
+257,65,Be aware that the traffic pattern never changes and you can drive in any lane,f
+258,65,Drive through whatever speed is necessary to get past all the backed up traffic,f
+259,65,Follow the instructions on the work zone signs and/or those given by flaggers/police officers,t
+260,65,You can drive in any lane even if there are workers as long as they have on hard hats,f
+261,66,Always the same as the posted limit,f
+262,66,Not necessary to follow,f
+263,66,Usually posted on the construction signs entering the work zone,t
+264,66,will always change but you can drive how you want,f
+265,67,Orange background with black letters,t
+266,67,Yellow background with black letters,f
+267,67,White with black letters,f
+268,67,Blue or green with white letters,f
+269,68,Can use a hands free mobile device,f
+270,68,Is not allowed to use any mobile devices while behind the wheel,t
+271,68,Is allowed to use head phones/ear buds when driving,f
+272,68,Can use an in-dash GPS,f
+273,69,Stopping for traffic,f
+274,69,Playing the radio,f
+275,69,Anything that takes your attention away from driving,t
+276,69,Nothing to worry about if your a good driver,f
+277,70,People/objects in the roadway,f
+278,70,Talking to passengers,t
+279,70,Police pulling someone over,f
+280,70,A bumper sticker on the car in front of you,f
+281,71,Avoid arguments and stress with passengers,f
+282,71,Make sure all passengers are safely buckled up,f
+283,71,"Stay focused, pay attention and expect the unexpected",f
+284,71,All of the above,t
+285,72,$100,f
+286,72,$500,f
+287,72,$1000,t
+288,72,$1500,f
+289,73,	Fatigue is physical or mental tiredness,f
+290,73,Fatigue impairs your vision and judgment,f
+291,73,Fatigue does not increase your risk of being in a crash,t
+292,73,Fatigue causes errors related to speed and distance,f
+293,74,"Trouble focusing, keeping your eyes open",f
+294,74,Drifting from your lane and tailgating,f
+295,74,Impaired reaction time and judgement,f
+296,74,All of the above,t
+297,75,Watch for warning signs of fatigue,f
+298,75,"Take a nap, find a safe parking area to take a 15 to 20 minute nap",f
+299,75,Driving at night is the best way to prevent fatigue because there is no sun glare,t
+300,75,The best way to prevent fatigue is sleep,f
+301,76,Multiple vehicles,f
+302,76,Single Vehicle,t
+303,76,Buses,f
+304,76,Motorcycles,f
+305,77,Bad cold,f
+306,77,Virus,f
+307,77,Infection,f
+308,77,All of the above,t
+309,78,Emotions can have a great effect on your driving safely,f
+310,78,Emotions can create mental distractions,f
+311,78,Emotions can increase risk taking while driving,f
+312,78,Emotions cannot interrupt the ability to process information,t
+313,79,Have someone else who is licensed drive for you,t
+314,79,If you are angry it is okay to drive because you may need to get to work or school,f
+315,79,If your impatient use your horn to make other drivers move instead of tailgating them,f
+316,79,It is better to get to your destination quickly and then cool off,f
+317,80,Calling an emergency response operator,f
+318,80,Calling a hospital in an emergency,f
+319,80,Calling an ambulance company in an emergency,f
+320,80,Calling to make an emergency haircut appointment,t
+321,81,Laptop computer,f
+322,81,PDA or paging device,f
+323,81,Text-messaging device,f
+324,81,All of the above,t
+325,82,Seat belts must be worn even if the car has airbags by front seat passengers,f
+326,82,Drivers 16 and 17 and each of their passengers must wear seat belts,f
+327,82,It is illegal for any front seat passenger not to wear a seatbelt,f
+328,82,All of the above,t
+329,83,An infant under age 1 and less than 20 pounds must be in a car seat,f
+330,83,An infant under age 1 and less than 20 pounds must be in a rear facing car seat,t
+331,83,An infant under age 1and less than 20 bounds must be in a booster seat,f
+332,83,An infant under age 1 and less than 20 pounds must be in a seat belt,f
+333,84,From age 1 to 7 years of age and less than 60 pounds a child must be in a rear facing seat,f
+334,84,From age 1 to 7 years of age and less than 20 pounds a child must wear a seat belt,f
+335,84,From age 1 to 7 years of age and less then 60 pounds a child must be in an approved car seat,t
+336,84,From age 1 to 7 years of age and less than 20 pounds a child must be in an approved booster seat,f
+337,85,A child age 7 years or older and less than 60 pounds must be in an approved booster seat secured by both a lap and shoulder belt,t
+338,85,A child age 7 years or older and less than 60 pounds must be in a seat belt with both lap and shoulder belt secured,f
+339,85,A child age 7 years or older and less than 60 pounds must be in an approved booster seat with just the lap belt secured,f
+340,85,A child age 7 years or older and less than 60 pounds must be an approved car seat,f
+341,86,A child age 7 and older and 60 pounds or more must be in an approved booster seat or seat belt with both lap and shoulder belt securing the booster seat,t
+342,86,A child age 7 and older and more than 60 pounds must be in a rear facing carseat,f
+343,86,A child age 7 and older and less than 60 pounds must be in a seat belt,f
+344,86,A child age 7 and older and more than 60 pounds riding in the front seat must be in an approved booster seat.,f
+345,87,Anyone found to have a BAC of .06,f
+346,87,Anyone under the age of 21 with a BAC of .02 or higher,t
+347,87,Anyone age 21 or older with a BAC of .08,f
+348,87,Anyone age 16 to 21 with a BAC of .00,f
+349,88,$225,f
+350,88,$175,t
+351,88,$150,f
+352,88,$125,f
+353,89,Negligent homicide with a motor vehicle,f
+354,89,Evading responsibility following an accident that results in a death or serious injury,f
+355,89,Driving under the influence of drugs or alcohol,f
+356,89,All of the above,t
+357,90,"60-Day suspension, $175 license restoration fee, $125 infraction fee and court fines",f
+358,90,"90-Day suspension, $175 license restoration fee, $125 infraction fee and court fines",f
+359,90,"	30-Day suspension, $175 license restoration fee, $125 infraction fee and court fines",t
+360,90,"6-Month suspension, $175 license restoration fee $125 infraction fee and court fines",f
+361,91,"3-Month suspension, $175 license restoration fee, court fines or imprisonment of not more than 30 days, or both.",f
+362,91,"	6-Month suspension, $175 license restoration fee, court fines or imprisonment of not more than 30 days, or both",t
+363,91,"	6-Month suspension, $175 license restoration fee, court fines or imprisonment of not more than 30 days, or both 	9-Month suspension, $175 license restoration fee, court fines or imprisonment of not more than 30 days, or both",f
+364,91,"1-year suspension, $175 license restoration fee, court fines or imprisonment of not more than 30 days, or both",f
+365,92,"60-Day suspension, $175 license restoration fee and court fines",t
+366,92,"90-Day suspension, $175 license restoration fee and court fines",f
+367,92,"30-Day suspension, $175 license restoration fee and court fines",f
+368,92,"6-Month suspension, $175 license restoration fee and court fines",f
+369,93,Having friends in their car for the first year of licensure,f
+370,93,Carrying more passengers than seat belts,f
+371,93,	Driving past the curfew limits of 11:00pm to 5:00 am going to the store for snacks,f
+372,93,All of the above,t
+373,94,Driving in violation of learner's permit requirements,f
+374,94,Driving in violation of any of the Graduated Driver's License Laws,f
+375,94,"	Using a cell phone or other mobile electronic device outside of permitted uses. By law, drivers under 18 cannot use a cell phone/mobile electronic device even if it is '"hands-free'"",f
+376,94,Any of the above reasons,t
+377,95,No passing zone,t
+378,95,Passing zone ahead,f
+379,95,Pass with care,f
+380,95,Passing is allowed,f
+381,96,A school zone or office building is ahead,f
+382,96,A school zone or school crossing is ahead,t
+383,96,A school zone or intersection is ahead,f
+384,96,A pedestrian crossing is ahead,f
+385,97,You are at the railroad crossing,f
+386,97,Stop ahead,f
+387,97,Railroad crossing is ahead,t
+388,97,Crosswalk ahead,f
+389,98,No parking at any time,f
+390,98,Parking for SUV's only,f
+391,98,Parking for Disabled or Handicapped only,t
+392,98,Parking for the elderly or child on board,f
+393,99,A school zone,f
+394,99,	A pedestrian crossing,t
+395,99,A work zone,f
+396,99,A park ahead,f
+397,100,1 month,f
+398,100,3 months,f
+399,100,6 months,f
+400,100,12 months,t
+401,101,10pm-6am,f
+402,101,11pm-5am,t
+403,101,12am-5am,f
+404,101,10pm-12am,f
+405,102,A hazard,f
+406,102,Vehicles,t
+407,102,Dangerous,f
+408,103,Must share a traffic lane with another vehicle,f
+409,103,Have the right to use a complete traffic lane,t
+410,103,Are easy to see and determine what they will do,f
+411,104,Speed up to provide more room for the vehicle to pass,f
+412,104,Turn right from any lane,f
+413,104,Turn from the right lane,t
+414,105,Make the turn from the center lane,f
+415,105,Make the turn from the left lane,t
+416,105,"Make the turn from any lane, providing you signal well in advance",f
+417,106,Passing is permitted only in daylight hour,f
+418,106,There are oncoming cars passing in your direction,f
+419,106,You cannot see far enough ahead to pass,t
+420,107,Sound your horn as you pass,f
+421,107,Flash your headlights as you pass,f
+422,107,Judge the distance to the first oncoming vehicle,t
+423,108,You are one vehicle length ahead,f
+424,108,You can see both headlights of the vehicle in your rearview mirror,t
+425,108,You are 50 feet ahead of the vehicle,f
+426,109,You are on a hill or curve,t
+427,109,You are on a road with a solid line on your side of the road,f
+428,109,There is a broken line on your side of the road,f
+429,110,Watch only the vehicles behind the gap,f
+430,110,"Check behind, then watch the vehicle ahead",t
+431,110,Speed up and let vehicles make way,f
+432,111,A two-second gap,f
+433,111,A three-second gap,f
+434,111,A four-second gap,t
+435,112,Change lanes to the left,t
+436,112,Slow down,f
+437,112,Maintain speed and position,f
+438,113,They do not have the same physical reflexes as an adult,f
+439,113,Both they are smaller and more difficult to see and they do not have the same physical reflexes as an adult,t
+440,113,They are smaller and more difficult to see,f
+441,114,They may use the left lane,t
+442,114,They cut through all lanes,f
+443,114,They wait on the side of the road,f
+444,115,Missing an exit,f
+445,115,Being late for an appointment,f
+446,115,Falling aslep behind the wheel and crashing,t
+447,116,Anything that causes evasive action while driving,f
+448,116,Anything that takes your attention away from driving,t
+449,116,Anything that causes you to pay more attention to driving,f
+450,117,Your 18 year old friend,t
+451,117,Your parents,f
+452,117,Your younger brother or sister,f
+453,118,Sound your horn and maintain speed,f
+454,118,Speed up to clear the area quickly,f
+455,118,Slow down and pass with caution,t
+456,119,Apply the brake and hold it,f
+457,119,Hold the steering wheel tightly and use the brakes lightly,t
+458,119,Pull over quickly,f
+459,120,9 and 3,t
+460,120,4 and 11,f
+461,120,12 and 9,f
+462,121,Applying your brakes,f
+463,121,letting go of the steering wheel,t
+464,121,Pressing your head firmly against the head restraint,f
+465,122,Release your seat belt,t
+466,122,Brace yourself,f
+467,122,Press your head against the head restraint,f
+468,123,You should speed up so you can make the turn before the light changes,f
+469,123,You do not need to signal to turn from that lane,f
+470,123,You should prepare to stop and give the right of way to oncoming traffic,t
+471,124,1/3,f
+472,124,1/4,f
+473,124,1/2,t
+474,125,Pull off the road,f
+475,125,Maintain your speed and position,f
+476,125,Slowdown and let them safely return to the drive lane,t
+477,126,Use your parking lights,f
+478,126,Use your high beams,f
+479,126,Use your low beams,t
+480,127,They do not follow the same rules as motor vehicles,t
+481,127,A motorcycle can stop much faster than a standard vehicle,f
+482,127,The brake more slowly than motor vehicles,f
+483,128,1-2 seconds,f
+484,128,2-3 seconds,f
+485,128,3-4 seconds,t
+486,129,The pedestrian must yield the right-of-way,f
+487,129,You must yield the right-of-way to them,t
+488,129,Honk your horn to let them know you are there,f
+489,130,Visibility ahead is limited,f
+490,130,You may hit another vehicle,f
+491,130,Near blind pedestrians,t
+492,131,A $500 fine,f
+493,131,A 10 day suspension,f
+494,131,A 30 day suspension,t
+495,132,Make drivers drive slower and get angry,f
+496,132,Primarily inconvenience drivers,f
+497,132,Keep traffic out of hazardous work zones,t
+498,133,Follow the driver in front of you closely,f
+499,133,Pass the driver in front of you as soon as you can,f
+500,133,Avoid tailgating and keep a safe following distance,t
+501,134,Can be double normal fines,t
+502,134,Are generally not enforced,f
+503,134,Can be argued in a court,f
+504,135,You should obey the normal posted speed limit,t
+505,135,You should drive 15 mph slower than the posted speed limit,f
+506,135,You should drive 15 mph faster than the posted speed limit,f
+507,136,Square or rectangular with white and red coloring,f
+508,136,Round or octagon with black and yellow coloring,f
+509,136,Diamond or rectangular with orange and black coloring,t
