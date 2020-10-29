@@ -12,7 +12,6 @@ class QuestionsController < ApplicationController
             
             # byebug
             
-
             choices = Choice.where(question_id: q.id)
             # byebug
             choices.each do |c|
